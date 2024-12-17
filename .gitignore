@@ -1,0 +1,104 @@
+# General
+__pycache__/
+*.py[cod]
+*$py.class
+db.sqlite3
+*.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.swp
+*.sublime-project
+*.sublime-workspace
+
+# Django
+*.mo
+*.DS_Store
+*.env
+.env.*
+*.bak
+media/
+staticfiles/
+local_settings.py
+db.sqlite3
+config/settings/local.py
+logs/
+
+# Migrations
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# macOS
+.DS_Store
+AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+*.icloud
+com.apple.timemachine.donotpresent
+
+# Python
+*.env
+*.venv
+.venv/
+env/
+ENV/
+venv/
+venv.bak/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+dist/
+build/
+develop-eggs/
+.eggs/
+lib/
+lib64/
+parts/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Docker
+*.tar
+*.dockerignore
+docker-compose.override.yml
+docker-compose.override.*.yml
+.docker/
+.env.docker
+.env.prod
+.env.local
+*.container
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+*.idea/*
+
+# PyCharm
+/.idea/*
+/*.iml
+/workspace.xml
+/tasks.xml
+/shelf/
+/*.pydevproject
+
+
+# Logs
+*.log
+*.out
+*.err
+
