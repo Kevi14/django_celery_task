@@ -18,7 +18,6 @@ db.sqlite3
 *.mo
 *.DS_Store
 *.env
-.env.*
 *.bak
 media/
 staticfiles/
